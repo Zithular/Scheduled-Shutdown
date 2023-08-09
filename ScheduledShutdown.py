@@ -70,7 +70,7 @@ print("Please enter the date you would like to schedule the shutdown:")
 ShutdownDate = input("> ")
 print()
 
-print("What time would you like to shutdown? (HH:MM:SS AM/PM)")
+print("What time would you like to shutdown?")
 ShutdownTime = input("> ")
 print()
 
