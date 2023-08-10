@@ -1,4 +1,4 @@
-# Scheduled-Shutdown
+ # Scheduled-Shutdown
 Scheduled Shutdown is a Python application that allows you to schedule a shutdown time for your computer. You can specify the date and time for the shutdown, and the app will automatically perform the shutdown at the specified time.
 
 ## Downloading
@@ -12,8 +12,21 @@ Open a terminal or command prompt, and navigate to the directory where you clone
 ```
 [1] MM/DD/YYYY
 [2] DD/MM/YYYY
+
+e.g:
+
+[1] 05/20/2000 | The 20th of May, 2000.
+[2] 20/05/2000 | The 20th of May, 2000.
 ```
-If it is your first time opening the app, you will be asked if you want to see the guide before starting. You can choose "yes" or "no" accordingly. Then, enter the date you would like to schedule the shutdown in the format based on your choice above and enter the time you would like to schedule the shutdown in the format "HH:MM:SS AM/PM". The app will then wait until it is or has been the Scheduled shutdown time, and shutdown the computer.
+If it is your first time opening the app, you will be asked if you want to see the guide before starting. You can choose "yes" or "no" accordingly. Then, enter the date you would like to schedule the shutdown in the format based on your choice above and enter the time you would like to schedule the shutdown in the following format:
+```
+HH:MM:SS AM/PM
+
+e.g:
+
+01:30:00 PM
+```
+The app will then wait until it is or has been the Scheduled shutdown time, and shutdown the computer.
 
 ## Configuration
 The application stores its settings in a JSON file called `Settings.json`, located in `ProgramData`. You can manually edit this file to modify the application's behavior if needed.
