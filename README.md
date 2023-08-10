@@ -5,10 +5,10 @@ Scheduled Shutdown is a Python application that allows you to schedule a shutdow
 Please either press the green Code Button, then press extract as zip or if you have Git installed, open command prompt and change to your chosen directory and type `git clone https://github.com/Zithular/Scheduled-Shutdown/`.
 
 ## Prerequisites
-Run the `install.bat` file. If it fails, please try to read the error code and find out the issue. It is likely that your python or pip is outdated. Please update these. Additionally, make sure you are on a Windows Operating System that has Python installed.
+Run the `Install.bat` file. If it fails, please try to read the error code and find out the issue. It is likely that your python or pip is outdated. Please update these. Additionally, make sure you are on a Windows Operating System that has Python installed.
 
 ## Usage
-Open a terminal or command prompt, and navigate to the directory where you cloned/downloaded the Scheduled Shutdown app. Run the following command to start the application: `python scheduled_shutdown.py`. The application will greet you with a welcome message and ask for your preferred date format. Choose one of the following formats:
+Open a terminal or command prompt, and navigate to the directory where you cloned/downloaded the Scheduled Shutdown app. Run the following command to start the application: `python ScheduledShutdown.py`. The application will greet you with a welcome message and ask for your preferred date format. Choose one of the following formats:
 ```
 [1] MM/DD/YYYY
 [2] DD/MM/YYYY
