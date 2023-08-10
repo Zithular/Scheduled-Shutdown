@@ -29,7 +29,7 @@ e.g:
 The app will then wait until it is or has been the Scheduled shutdown time, and shutdown the computer.
 
 ## Configuration
-The application stores its settings in a JSON file called `Settings.json`, located in `ProgramData`. You can manually edit this file to modify the application's behavior if needed.
+The application stores its settings in a JSON file called `Settings.json`, located in `ProgramData`. To locate your settings file, go to `C:\ProgramData\Scheduled Shutdown\Settings.json`. You can manually edit this file to modify the application's behavior if needed.
 
 ## Disclaimer
 Use this program at your own risk. The author and contributors are not responsible for any data loss or damage caused by using this application.
